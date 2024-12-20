@@ -1,4 +1,4 @@
-package veera_leetcode_arrays;
+package java_aqa;
 
 public class Array1_ArrayMinMax {
     public static void main(String[] args) {

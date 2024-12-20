@@ -1,12 +1,12 @@
-package veera_leet_Strings;
+package java_aqa;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class StringsentenceOccuranceWord {
+public class P3_StringSentenceOccuranceFrequency {
 
 	public static void main(String[] args) {
-	
+
 		String s = "hello automation World Hello WORLD World world";
 		String[] words = s.toLowerCase().split(" ");
 		Map<String, Integer> wordsMap = new HashMap<>();

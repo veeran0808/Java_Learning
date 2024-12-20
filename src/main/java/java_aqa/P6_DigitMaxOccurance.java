@@ -1,9 +1,9 @@
-package veera_leet_Strings;
+package java_aqa;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class DigitMaxOccurance {
+public class P6_DigitMaxOccurance {
 
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,4,1,6,2,1,4,1,1};

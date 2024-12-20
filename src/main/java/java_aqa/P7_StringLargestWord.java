@@ -1,6 +1,6 @@
-package veera_leet_Strings;
+package java_aqa;
 
-public class StringLargestWord {
+public class P7_StringLargestWord {
 
 	public static void main(String[] args) {
 		String s = "Hello automation world Veeraaa";

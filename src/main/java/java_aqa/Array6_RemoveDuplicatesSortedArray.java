@@ -1,4 +1,4 @@
-package veera_leetcode_arrays;
+package java_aqa;
 
 import java.util.Arrays;
 

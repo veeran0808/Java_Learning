@@ -1,9 +1,9 @@
-package veera_leet_Strings;
+package java_aqa;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class CharMaxtOccurance {
+public class P5_CharMaxtOccurance {
 
 	public static void main(String[] args) {
 

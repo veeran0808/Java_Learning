@@ -1,12 +1,11 @@
-package veera_leet_Strings;
+package java_aqa;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class StringWordsOccurance {
+public class P4_StringWordsOccurance {
 
 	public static void main(String[] args) {
-
 		String[] words = { "pen", "bat",  "pen", "pend", "bat", "pen" };
 		Map<String, Integer> wordsMap = new HashMap<>();
 		for (String word : words) {

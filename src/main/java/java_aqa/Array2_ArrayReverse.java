@@ -1,4 +1,4 @@
-package veera_leetcode_arrays;
+package java_aqa;
 
 public class Array2_ArrayReverse {
     public static void main(String[] args) {

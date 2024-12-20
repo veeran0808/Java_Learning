@@ -1,6 +1,6 @@
-package veera_leet_Strings;
+package java_aqa;
 
-public class StringSecondLargestWord {
+public class P8_StringSecondLargestWord {
 
 	public static void main(String[] args) {
 	
