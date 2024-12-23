@@ -29,11 +29,14 @@
 	</distributionManagement>
 
 	<dependencies>
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.21.0</version>
+			<version>4.27.0</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -130,9 +133,10 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						
-						<suiteXmlFile>src/test/resources/testrunners/test_regression.xml</suiteXmlFile>
-					<!--	<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
+
+						<suiteXmlFile>
+							src/test/resources/testrunners/test_regression.xml</suiteXmlFile>
+						<!--	<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					</suiteXmlFiles>
 					<argLine>
 						--add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED
